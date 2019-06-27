@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Hello, CS493!</h1>
+            <p class="lead">This is the main page for a Cloud Applications Development class Assignment on OAuth2.0</p>
+            <hr class="my-4">
+            <p>Below is a link that the user can click to visit a Google OAuth2.0 endpoint.  The user will be redirected back
+        to this site after giving email permissions and will be able to see their first and last name.  The purpose
+        of this assignment is to display how OAuth2.0 works on a step by step basis.</p>
+            <p>-Reed Miller</p>
+            <a class="btn btn-success btn-lg" href="{{ link }}" role="button">Click Here!</a>
+
+        </div>
+    </div>
+{% endblock %}
